@@ -1,0 +1,117 @@
+html:root
+{
+	font-size: 16px;
+}
+#scrolly_2pt {
+			position: relative;
+			background-color: rgb(255,255,248);
+			padding: 1rem;
+			margin: 0 auto;
+		}
+#scrolly_2pt > * {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+figure {
+	position: -webkit-sticky;
+	position: sticky;
+	width: 100%;
+	margin: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	background-color: transparent;
+}
+
+.step_2pt {
+	min-width: 320px;
+	margin: 0 auto;
+	color: black;
+	background-color: transparent;
+	position: relative;
+	padding: 0 1rem;
+	max-width: 30vw;
+}
+
+.step_2pt:last-child {
+	margin-bottom: 0;
+}
+
+.step_2pt.is-active p {
+	color: #3b3b3b;
+}
+
+
+.step_2pt p {
+	text-align: center;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+.pt2_non-scro-step{
+	min-width: 320px;
+	color: black;
+	background-color: transparent;
+	position: relative;
+	padding: 0 1rem;
+	max-width: 30vw;
+	margin: 0 auto;
+}
+.pt2_non-scro-step p {
+	text-align: center;
+	padding: 1rem;
+	font-size: 1.5rem;
+	background-color: #3b3b3b;
+
+}
+.pt2_non-scro-step:last-child {
+	margin-bottom: 0;
+}
+
+.innerbox{
+	padding: 0 0.7rem;
+}
+
+.innerbox p{
+	background-color: rgb(255,255,248);
+	text-align: left;
+	font-size: 1rem;
+	-webkit-text-size-adjust: none;
+	border: 0.18rem solid #8a8a8a;
+}
+
+#diameter-hangtime{
+	margin:0 auto;
+
+}
+
+#production-distance{
+	margin: 0 auto;
+}
+
+#speed-cmp{
+	margin: 0 auto;
+	display: none;
+}
+
+#seudoPFEofMasks{
+	margin: 0 auto;
+	display:none;
+}
+
+#radar-particles{
+	margin:0 auto;
+}
+
+#face-touching{
+	margin:0 auto;
+	display: none;
+}
+
+#materials-cmp{
+	margin:0 auto;
+	display: none;
+}
+
